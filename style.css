@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:1.3em;
+	}
+
+header{
+	width:100%;
+	background:#565454;
+	color:#ffffff;
+	padding-top:1em;
+	padding-bottom:1em;
+	
+}
+header img{
+	width:75px;
+	margin-left:47.3%;
+	margin-top:1%;
+	border-radius:100%;
+	}
+h1{
+	text-align:center;
+	font-size:1.5em;
+}
+h2,h3{
+	text-align:center;
+	font-size:1em;
+}
+section{
+	width:70%;
+	margin:0 auto 0 auto;
+}
+article{
+	padding:40px 0 20px 0;
+	border-bottom:#888282 dotted 1px;
+}
+article h3{
+	float:left;
+	border-bottom:solid 2px #21abc5;
+	padding-bottom:5px;
+	text-transform:uppercase;
+	line-height:1.3em;
+	font-size:1em;
+}
+article p, article ul{
+	margin-left:20%;
+	color:#817c7c;
+	margin-bottom:1.5em;
+}
+article ul li{
+	margin-left:15px;
+	list-style:square;
+	}
+article h4{
+	font-size:1em;
+	margin-left:20%;
+	text-transform:uppercase;
+}
+footer{
+	width:100%;
+	background:#565454;
+	margin-top:3em;
+	padding:2em;
+	color:#fff;}
+footer p{
+	text-align:center;
+	
+}
+footer a:link, footer a:visited{
+	color:#fff;}
+	
+footer a:hover{
+	text-decoration:none;}
+
